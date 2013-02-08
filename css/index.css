@@ -1,0 +1,131 @@
+.mainContainer {
+    left: 10%;
+    position: relative;
+    width: 80%;
+}
+
+.showProcessingScreen{
+    background-color: gray;
+    opacity: 0.4;
+    position: relative;
+    width: 100%;
+    z-index: 200;
+}
+.spanLink{color:#0075CE;cursor:pointer;} 
+.spanLink:hover{ text-decoration:underline;}
+.spanLinkDisabled{color:#ccc;text-decoration:none;cursor:auto;}
+
+@font-face {
+	font-family: "kalimati";
+    font-style: normal;
+    font-weight: 400;
+	src: url("../fonts/kalimati.ttf");
+}
+@font-face {
+	font-family: "lohit";
+    font-style: normal;
+	src: url("../fonts/lohit_hi.ttf");
+}
+body {
+	font-family: "lohit";
+}
+.hindi {
+	font-family: "lohit";
+}
+
+
+
+.floatLeftWidth100P {
+    float: left;
+    width: 100%;
+}
+
+.loginContainer {
+    position: absolute;
+    z-index: 401;
+    clear: both;
+    left:26%;
+}
+
+.loginContainer img {
+    position: relative;
+    z-index: 402;
+	
+}
+
+.loginTabberContainer{
+    left: 16px;
+    position: relative;
+    top: 12px;
+    border: 3px solid black;
+	border-radius: 15px 15px 15px 15px;
+	padding: 20px;
+}
+
+input{
+	margin: 7px;
+}
+.floatRight{
+	float: right;
+}
+.verticalMenu{
+	margin: 0;
+	padding: 0;
+	float: right
+}
+
+.verticalMenu li{
+	float: left;
+	list-style: none;
+	font: 12px Tahoma, Arial
+}
+
+.verticalMenu li div{
+	display: block;
+	background: #20548E;
+	padding: 5px 12px;
+	text-decoration: none;
+	border-right: 1px solid white;
+	width: 70px;
+	color: #EAFFED;
+	white-space: nowrap
+}
+.verticalMenu li a{
+	display: block;
+	background: #20548E;
+	padding: 5px 12px;
+	text-decoration: none;
+	border-right: 1px solid white;
+	width: 70px;
+	color: #EAFFED;
+	white-space: nowrap
+}
+
+.verticalMenu li a:hover{
+	background: #1A4473
+}
+
+.verticalMenu li div:hover{
+	background: #1A4473
+}
+.verticalMenu li ul{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	visibility: hidden;
+	border-top: 1px solid white
+}
+
+.verticalMenu li ul li{
+	float: none;
+	display: inline
+}
+
+.verticalMenu li ul li a{
+	width: auto;
+	background: #9F1B1B
+}
+.verticalMenu li ul li a:hover{
+	background: #7F1616
+}
+

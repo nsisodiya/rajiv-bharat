@@ -1,0 +1,1 @@
+App.Controls = App.Controls || {};
