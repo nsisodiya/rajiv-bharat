@@ -44,7 +44,7 @@ App.audioClipPlayer = {
 	createAudioEle: function(){
 		var self = this;
 		
-		self.container.find("#audio").html("").append('<audio preload="none" controls><p>Your browser does not support the audio element. Use Firefox. </p></audio>');
+		self.container.find("#audio").html("").append('<audio preload="meta" controls><p>Your browser does not support the audio element. Use Firefox. </p></audio>');
 		self.audio = self.container.find("#audio audio")[0];
 		
 		self.audio.addEventListener("canplay", function() {

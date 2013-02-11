@@ -73,7 +73,7 @@ ResourceLoader.loadAll = function(){
 			debug : true
 		});
 
-		var application = new choona.loadApplication("applicationContainer", App);
+		application = new choona.loadApplication("applicationContainer", App);
 		application.start();
 		
 	});
